@@ -26,7 +26,7 @@ const Navbar = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link to="/categories" className="hover:text-red-500 transition">
+                            <Link to="/categoriesCard" className="hover:text-red-500 transition">
                                 Categories
                             </Link>
                         </li>
@@ -54,7 +54,7 @@ const Navbar = () => {
 
                     {/* Mobile Menu Button */}
                     <button
-                        className="md:hidden text-gray-300"
+                        className="md:hidden cursor-pointer text-gray-300"
                         onClick={() => closeCheck()}
                         aria-label="Open menu"
                     >
@@ -115,7 +115,7 @@ const Navbar = () => {
                         Home
                     </Link>
                     <Link
-                        to="/categories"
+                        to="/categoriesCard"
                         onClick={closeCheck}
                         className="block hover:text-red-500"
                     >
